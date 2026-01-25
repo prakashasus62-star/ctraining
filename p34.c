@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main(){
     int num=42;
-    printf("%d",num--);
+    num+=2;
+    printf("%d",num);
 }
