@@ -1,12 +1,9 @@
 #include <stdio.h>
 int main(){
-    int n=10;
-    // scanf("%d",&n);
-    if(n%2==0){
-        printf("even number");
-    }
-    else{
-        printf("odd number");
+    int n;
+    scanf("%d",&n);
+    if(n%5==0){
+        printf("Divisible by 5");
     }
 
 }
