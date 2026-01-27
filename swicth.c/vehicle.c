@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &age);
     switch (category) {
         case 1:
-    if (age <= 5)
+    if (age<=5)
                 premium = 1500;
              else
                 premium = 2500;
