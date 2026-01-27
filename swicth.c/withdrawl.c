@@ -19,8 +19,7 @@ int main(){
     }
     break;
     case 2:
-    // int limit=5000;
-    if(withdrwalamount>=limit){
+    if(withdrwalamount<=limit){
         printf("Transaction Success");
     }
     else{
