@@ -6,6 +6,6 @@ int main() {
     for (int temp = num; temp > 0; temp = temp / 10) {
         count++;
     }
-    printf("Number of digits: %d\n", count);
-    return 0;
+    printf("%d",count);
+
 }
