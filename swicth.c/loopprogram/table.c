@@ -1,14 +1,12 @@
 #include <stdio.h.>
 int main(){
     int k;
-    int mul=0;
     scanf("%d",&k);
+    int table=0;
     for(int i=1; i<=10; i++){
-        for(int j=1 ;j<=10; i++){
-            mul=i*k;
-        }
-        printf("%d",mul);
-        
+        table=i*k;
+        printf("%d ",table);
+
     }
         
 }
