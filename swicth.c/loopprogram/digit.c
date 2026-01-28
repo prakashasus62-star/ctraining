@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &num);
     for (; num > 0; num = num / 10) {
         digit = num % 10;
-        sum += digit;  
+        sum = sum+digit;  
     }
     printf("Sum of digits = %d\n", sum);
     return 0;
